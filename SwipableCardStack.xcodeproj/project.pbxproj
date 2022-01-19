@@ -13,9 +13,20 @@
 		345D75EB275F81B7008EE672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345D75E9275F81B7008EE672 /* Main.storyboard */; };
 		345D75ED275F81B9008EE672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345D75EC275F81B9008EE672 /* Assets.xcassets */; };
 		345D75F0275F81B9008EE672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345D75EE275F81B9008EE672 /* LaunchScreen.storyboard */; };
+		345D7601275F81F2008EE672 /* KolodaCardStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345D75F8275F81F2008EE672 /* KolodaCardStorage.swift */; };
+		345D7602275F81F2008EE672 /* KolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345D75F9275F81F2008EE672 /* KolodaView.swift */; };
+		345D7603275F81F2008EE672 /* KolodaViewAnimatior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345D75FA275F81F2008EE672 /* KolodaViewAnimatior.swift */; };
+		345D7604275F81F2008EE672 /* KolodaAnimationSemaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345D75FB275F81F2008EE672 /* KolodaAnimationSemaphore.swift */; };
+		345D7605275F81F2008EE672 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345D75FD275F81F2008EE672 /* OverlayView.swift */; };
+		345D7606275F81F2008EE672 /* DraggableCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345D75FF275F81F2008EE672 /* DraggableCardView.swift */; };
+		345D7607275F81F2008EE672 /* SwipeResultDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345D7600275F81F2008EE672 /* SwipeResultDirection.swift */; };
+		345D7609275F8307008EE672 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 345D7608275F8307008EE672 /* OverlayView.xib */; };
+		345D760B275F8329008EE672 /* OverlayViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345D760A275F8329008EE672 /* OverlayViewVC.swift */; };
+		B5D216D2373BAAF4C491652E /* Pods_SwipableCardStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF76DB31CF63D1236474A6D /* Pods_SwipableCardStack.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B433653AEC7F3FFD75FD9A1 /* Pods-SwipableCardStack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipableCardStack.debug.xcconfig"; path = "Target Support Files/Pods-SwipableCardStack/Pods-SwipableCardStack.debug.xcconfig"; sourceTree = "<group>"; };
 		345D75E0275F81B7008EE672 /* SwipableCardStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipableCardStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		345D75E3275F81B7008EE672 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		345D75E5275F81B7008EE672 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,17 @@
 		345D75EC275F81B9008EE672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		345D75EF275F81B9008EE672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		345D75F1275F81B9008EE672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345D75F8275F81F2008EE672 /* KolodaCardStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KolodaCardStorage.swift; sourceTree = "<group>"; };
+		345D75F9275F81F2008EE672 /* KolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KolodaView.swift; sourceTree = "<group>"; };
+		345D75FA275F81F2008EE672 /* KolodaViewAnimatior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KolodaViewAnimatior.swift; sourceTree = "<group>"; };
+		345D75FB275F81F2008EE672 /* KolodaAnimationSemaphore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KolodaAnimationSemaphore.swift; sourceTree = "<group>"; };
+		345D75FD275F81F2008EE672 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		345D75FF275F81F2008EE672 /* DraggableCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableCardView.swift; sourceTree = "<group>"; };
+		345D7600275F81F2008EE672 /* SwipeResultDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeResultDirection.swift; sourceTree = "<group>"; };
+		345D7608275F8307008EE672 /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		345D760A275F8329008EE672 /* OverlayViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayViewVC.swift; sourceTree = "<group>"; };
+		4DF76DB31CF63D1236474A6D /* Pods_SwipableCardStack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipableCardStack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD92F7650F522EEFED23287 /* Pods-SwipableCardStack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipableCardStack.release.xcconfig"; path = "Target Support Files/Pods-SwipableCardStack/Pods-SwipableCardStack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D216D2373BAAF4C491652E /* Pods_SwipableCardStack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29CD87013EF93A59CC5A7C22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DF76DB31CF63D1236474A6D /* Pods_SwipableCardStack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		345D75D7275F81B7008EE672 = {
 			isa = PBXGroup;
 			children = (
 				345D75E2275F81B7008EE672 /* SwipableCardStack */,
 				345D75E1275F81B7008EE672 /* Products */,
+				D14E206DC5580252FD9C87E9 /* Pods */,
+				29CD87013EF93A59CC5A7C22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +91,71 @@
 			children = (
 				345D75E3275F81B7008EE672 /* AppDelegate.swift */,
 				345D75E5275F81B7008EE672 /* SceneDelegate.swift */,
-				345D75E7275F81B7008EE672 /* ViewController.swift */,
-				345D75E9275F81B7008EE672 /* Main.storyboard */,
 				345D75EC275F81B9008EE672 /* Assets.xcassets */,
-				345D75EE275F81B9008EE672 /* LaunchScreen.storyboard */,
+				345D75F7275F81C3008EE672 /* SwipableClass */,
+				88B7A6A527983B6A00BADED9 /* Storyboards */,
+				88B7A6A627983B9300BADED9 /* ViewControllers */,
 				345D75F1275F81B9008EE672 /* Info.plist */,
 			);
 			path = SwipableCardStack;
+			sourceTree = "<group>";
+		};
+		345D75F7275F81C3008EE672 /* SwipableClass */ = {
+			isa = PBXGroup;
+			children = (
+				345D75FE275F81F2008EE672 /* DraggableCardView */,
+				345D75FB275F81F2008EE672 /* KolodaAnimationSemaphore.swift */,
+				345D75F8275F81F2008EE672 /* KolodaCardStorage.swift */,
+				345D75F9275F81F2008EE672 /* KolodaView.swift */,
+				345D75FA275F81F2008EE672 /* KolodaViewAnimatior.swift */,
+				345D75FC275F81F2008EE672 /* OverlayView */,
+				345D7600275F81F2008EE672 /* SwipeResultDirection.swift */,
+			);
+			path = SwipableClass;
+			sourceTree = "<group>";
+		};
+		345D75FC275F81F2008EE672 /* OverlayView */ = {
+			isa = PBXGroup;
+			children = (
+				345D75FD275F81F2008EE672 /* OverlayView.swift */,
+			);
+			path = OverlayView;
+			sourceTree = "<group>";
+		};
+		345D75FE275F81F2008EE672 /* DraggableCardView */ = {
+			isa = PBXGroup;
+			children = (
+				345D75FF275F81F2008EE672 /* DraggableCardView.swift */,
+			);
+			path = DraggableCardView;
+			sourceTree = "<group>";
+		};
+		88B7A6A527983B6A00BADED9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				345D75E9275F81B7008EE672 /* Main.storyboard */,
+				345D7608275F8307008EE672 /* OverlayView.xib */,
+				345D75EE275F81B9008EE672 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		88B7A6A627983B9300BADED9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				345D75E7275F81B7008EE672 /* ViewController.swift */,
+				345D760A275F8329008EE672 /* OverlayViewVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D14E206DC5580252FD9C87E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B433653AEC7F3FFD75FD9A1 /* Pods-SwipableCardStack.debug.xcconfig */,
+				CBD92F7650F522EEFED23287 /* Pods-SwipableCardStack.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 345D75F4275F81B9008EE672 /* Build configuration list for PBXNativeTarget "SwipableCardStack" */;
 			buildPhases = (
+				9F712E04957B359107620231 /* [CP] Check Pods Manifest.lock */,
 				345D75DC275F81B7008EE672 /* Sources */,
 				345D75DD275F81B7008EE672 /* Frameworks */,
 				345D75DE275F81B7008EE672 /* Resources */,
+				322015BFD68D12FE2FB565BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				345D75F0275F81B9008EE672 /* LaunchScreen.storyboard in Resources */,
+				345D7609275F8307008EE672 /* OverlayView.xib in Resources */,
 				345D75ED275F81B9008EE672 /* Assets.xcassets in Resources */,
 				345D75EB275F81B7008EE672 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +227,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		322015BFD68D12FE2FB565BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwipableCardStack/Pods-SwipableCardStack-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwipableCardStack/Pods-SwipableCardStack-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwipableCardStack/Pods-SwipableCardStack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F712E04957B359107620231 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipableCardStack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		345D75DC275F81B7008EE672 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				345D75E8275F81B7008EE672 /* ViewController.swift in Sources */,
+				345D7606275F81F2008EE672 /* DraggableCardView.swift in Sources */,
+				345D7605275F81F2008EE672 /* OverlayView.swift in Sources */,
 				345D75E4275F81B7008EE672 /* AppDelegate.swift in Sources */,
 				345D75E6275F81B7008EE672 /* SceneDelegate.swift in Sources */,
+				345D7607275F81F2008EE672 /* SwipeResultDirection.swift in Sources */,
+				345D760B275F8329008EE672 /* OverlayViewVC.swift in Sources */,
+				345D7603275F81F2008EE672 /* KolodaViewAnimatior.swift in Sources */,
+				345D7601275F81F2008EE672 /* KolodaCardStorage.swift in Sources */,
+				345D7604275F81F2008EE672 /* KolodaAnimationSemaphore.swift in Sources */,
+				345D7602275F81F2008EE672 /* KolodaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +428,7 @@
 		};
 		345D75F5275F81B9008EE672 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B433653AEC7F3FFD75FD9A1 /* Pods-SwipableCardStack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +439,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +457,7 @@
 		};
 		345D75F6275F81B9008EE672 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD92F7650F522EEFED23287 /* Pods-SwipableCardStack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,6 +468,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

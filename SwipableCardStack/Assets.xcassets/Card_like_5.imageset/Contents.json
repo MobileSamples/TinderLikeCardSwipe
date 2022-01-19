@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "dyrholaey-area-in-iceland-close-to-black-sand-bea-2021-08-29-10-30-06-utc-min.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "green-volcanic-lake-charco-de-los-clicos-at-lanzar-2021-08-26-16-31-57-utc-min.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
