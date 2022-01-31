@@ -29,7 +29,7 @@ Drag View and Drop in your ViewController in Storyboard and Give its superclass 
 
 Take an outlet of your KolodaView to ViewController, then set dataSource and delegate the below coding in it.
 
-     class ViewController: UIViewController {
+  class ViewController: UIViewController {
     @IBOutlet weak var kolodaView: KolodaView!
 
     override func viewDidLoad() {
