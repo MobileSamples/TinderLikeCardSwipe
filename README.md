@@ -84,9 +84,9 @@ Confirm ViewController to KolodaViewDataSource protocol and implement all the me
 
 Now run the project and swipe the view to left to right or right to left you will be able to see the swipe effect on tinder and many other apps 
 
-**Credits:- The code was developed by our extremely talented developer Vimars.**
+**Credits:- The code was developed by our extremely talented developer Nishee.**
 
 
 ## Support
 If you have any questions, issues, or propositions, please create a new issue in this repository.
-If you any questions regarding <a href="https://www.excellentwebworld.com/android-application-development-services/?utm_source=github&utm_campaign=iphone-app-development">Android application development services</a> or want to <a href="https://www.excellentwebworld.com/hire-android-app-developers/?utm_source=github&utm_campaign=hire+android-developers">hire Android app developer</a>, then send an email to biz@excellentwebworld.com or fill out the form on the contact page
+If you any questions regarding <a href="https://www.excellentwebworld.com/iphone-application-development-services/?utm_source=github&utm_campaign=iphone-app-development">iPhone application development services</a> or want to <a href="https://www.excellentwebworld.com/hire-iphone-app-developers/?utm_source=github&utm_campaign=hire+iphone-developers">hire iphone app developer</a>, then send an email to biz@excellentwebworld.com or fill out the form on the contact page.
