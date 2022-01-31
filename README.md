@@ -1,6 +1,6 @@
 ![Excellent Webworld Company Logo](https://eww-wp-new.s3.ap-south-1.amazonaws.com/wp-content/uploads/2021/10/21124036/Excellent-Webworld-logo-svg.jpg)
 
-# How to Create a Tinder-like Swipable Card Stack for iPhone?
+# How to Create a Tinder-like Swipe Card Stack for iPhone?
 
 With introducing Tinder in the market, we saw new patterns of viewing and sorting data. Using these tinder way libraries you can create swipeable, clickable cards in your app.
 
