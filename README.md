@@ -29,7 +29,7 @@ Drag View and Drop in your ViewController in Storyboard and Give its superclass 
 
 Take an outlet of your KolodaView to ViewController, then set dataSource and delegate the below coding in it.
 
- class ViewController: UIViewController {
+     class ViewController: UIViewController {
     @IBOutlet weak var kolodaView: KolodaView!
 
     override func viewDidLoad() {
@@ -43,7 +43,7 @@ Take an outlet of your KolodaView to ViewController, then set dataSource and del
 ### 5 - Adding an Extension
 Confirm your ViewController to KolodaViewDelegate protocol and override some methods if you need.
 
-extension ViewController: KolodaViewDelegate {
+    extension ViewController: KolodaViewDelegate {
    
     // this method will show if card out of rang 
     func kolodaDidRunOutOfCards(_ koloda: KolodaView) {
@@ -62,7 +62,7 @@ extension ViewController: KolodaViewDelegate {
 
 Confirm ViewController to KolodaViewDataSource protocol and implement all the methods
 
-extension ViewController: KolodaViewDataSource {
+    extension ViewController: KolodaViewDataSource {
     
     // In this you have to give number of cards
     func kolodaNumberOfCards(_ koloda: KolodaView) -> Int {
