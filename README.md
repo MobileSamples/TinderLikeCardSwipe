@@ -6,7 +6,7 @@ With introducing Tinder in the market, we saw new patterns of viewing and sortin
 
 Here we will update you with how you can implement this card swipe pattern for anything you are building. Our developers are always up-to-date with libraries whenever a new concept of iOS is released.
 
-
+![Alt Text](https://eww-wp-new.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/02/01140837/tinderlikeswipe_ios.gif)
 
 ## Requirement
 Supported OS 13.0 to 15.0 
